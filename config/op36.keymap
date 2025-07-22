@@ -58,37 +58,37 @@
 
         base {
             bindings = <
-  &kp Q          &kp W         &kp E        &kp R          &kp T                          &kp Y  &kp U        &kp I        &kp O         &kp P
-  &hml LSHIFT A  &hml LCTRL S  &hml LALT D  &hml LGUI F    &kp G                          &kp H  &hmr RGUI J  &hmr RALT K  &hmr RCTRL L  &hmr RSHIFT SEMICOLON
-  &kp Z          &kp X         &kp C        &kp V          &kp B                          &kp N  &kp M        &kp COMMA    &kp DOT       &kp SQT
-                                            &kp BACKSPACE  &mo 2  &kp SPACE    &kp ENTER  &mo 1  &kp TAB
+  &kp Q          &kp W         &kp E        &kp R     &kp T                          &kp Y  &kp U     &kp I            &kp O           &kp P
+  &kp A          &kp S         &kp D        &kp F     &kp G                          &kp H  &kp J     &kp K            &kp L           &kp SEMI
+  &hmr LSHIFT Z  &hmr LCTRL X  &hmr LALT C  &kp V     &kp B                          &kp N  &kp M     &hmr RALT COMMA  &hmr RCTRL DOT  &hmr RSHIFT SQT
+                                            &kp LGUI  &mo 2  &kp SPACE    &kp ENTER  &mo 1  &kp RGUI
             >;
         };
 
         nav {
             bindings = <
-  &kp N1      &kp N2     &kp N3    &kp N4    &kp N5                        &kp N6           &kp N7               &kp N8        &kp N9            &kp N0
-  &kp LSHIFT  &kp LCTRL  &kp LALT  &kp LGUI  &kp ENTER                     &kp PRINTSCREEN  &hmr RGUI PAGE_DOWN  &hmr RALT UP  &hmr RCTRL PG_UP  &kp LSHIFT
-  &kp ESC     &kp HOME   &kp INS   &kp END   &kp DELETE                    &kp CAPS         &kp LEFT             &kp DOWN      &kp RIGHT         &none
-                                   &trans    &mo 3       &trans    &trans  &trans           &trans
+  &kp N1      &kp N2     &kp N3    &kp N4    &kp N5                        &kp N6           &kp N7         &kp N8    &kp N9     &kp N0
+  &none       &kp HOME   &kp INS   &kp END   &kp ENTER                     &kp PRINTSCREEN  &kp PAGE_DOWN  &kp UP    &kp PG_UP  &none
+  &kp LSHIFT  &kp LCTRL  &kp LALT  &kp END   &kp DELETE                    &kp CAPS         &kp LEFT       &kp DOWN  &kp RIGHT  &kp RSHIFT
+                                   &kp LGUI  &mo 3       &trans    &trans  &trans           &kp RGUI
             >;
         };
 
         sym {
             bindings = <
-  &none             &kp LT           &kp EQUAL        &kp GT          &kp GRAVE                    &kp CARET  &kp LBKT        &kp UNDER       &kp RBKT         &none
-  &hml LSHIFT BSLH  &hml LCTRL LPAR  &hml LALT MINUS  &hml LGUI RPAR  &kp PLUS                     &kp PRCNT  &hmr RGUI LBRC  &hmr RALT SEMI  &hmr RCTRL RBRC  &hmr RSHIFT EXCL
-  &kp HASH          &kp STAR         &kp COLON        &kp FSLH        &none                        &none      &kp PIPE        &kp TILDE       &kp AMPS         &kp DLLR
-                                                      &trans          &trans     &trans    &trans  &mo 3      &trans
+  &kp ESC           &kp LT           &kp EQUAL        &kp GT    &kp GRAVE                    &kp CARET  &kp LBKT        &kp UNDER        &kp RBKT         &kp BACKSPACE
+  &kp BSLH          &kp LPAR         &kp MINUS        &kp RPAR  &kp PLUS                     &kp PRCNT  &hmr RGUI LBRC  &hmr RALT SEMI   &hmr RCTRL RBRC  &kp ENTER
+  &hmr LSHIFT HASH  &hmr LCTRL STAR  &hmr LALT COLON  &kp FSLH  &none                        &none      &kp PIPE        &hmr RALT TILDE  &hmr RCTRL AMPS  &hmr RSHIFT DLLR
+                                                      &kp LGUI  &trans     &trans    &trans  &mo 3      &kp RGUI
             >;
         };
 
         adj {
             bindings = <
-  &bootloader  &kp F1         &kp F2        &kp F3        &kp F4                     &bt BT_SEL 0  &bt BT_SEL 1        &bt BT_SEL 2      &bt BT_SEL 3         &bt BT_CLR
-  &kp RSHIFT   &hml RCTRL F5  &hml RALT F6  &hml RGUI F7  &kp F8                     &out OUT_BLE  &hmr RGUI C_VOL_DN  &hmr RALT C_MUTE  &hmr RCTRL C_VOL_UP  &kp RSHIFT
-  &none        &kp F9         &kp F10       &kp F11       &kp F12                    &out OUT_USB  &kp C_PREV          &kp C_PP          &kp C_NEXT           &studio_unlock
-                                            &trans        &trans   &trans    &trans  &trans        &trans
+  &bootloader  &kp F1         &kp F2         &kp F3    &kp F4                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3       &bt BT_CLR
+  &none        &kp F5         &kp F6         &kp F7    &kp F8                     &out OUT_BLE  &kp C_VOL_DN  &kp C_MUTE      &kp C_VOLUME_UP    &studio_unlock
+  &kp LSHIFT   &hmr LCTRL F9  &hmr LALT F10  &kp F11   &kp F12                    &out OUT_USB  &kp C_PREV    &hmr RALT C_PP  &hmr RCTRL C_NEXT  &kp RSHIFT
+                                             &kp LGUI  &trans   &trans    &trans  &trans        &kp RGUI
             >;
         };
     };
