@@ -63,6 +63,8 @@
   &hmr LSHIFT Z  &hmr LCTRL X  &hmr LALT C  &kp V     &kp B                          &kp N  &kp M     &hmr RALT COMMA  &hmr RCTRL DOT  &hmr RSHIFT SQT
                                             &kp LGUI  &mo 2  &kp SPACE    &kp ENTER  &mo 1  &kp RGUI
             >;
+
+            display-name = "Base";
         };
 
         nav {
@@ -72,6 +74,8 @@
   &kp LSHIFT  &kp LCTRL  &kp LALT  &kp END   &kp DELETE                    &kp CAPS         &kp LEFT       &kp DOWN  &kp RIGHT  &kp RSHIFT
                                    &kp LGUI  &mo 3       &trans    &trans  &trans           &kp RGUI
             >;
+
+            display-name = "Navigation";
         };
 
         sym {
@@ -81,6 +85,8 @@
   &hmr LSHIFT HASH  &hmr LCTRL STAR  &hmr LALT COLON  &kp FSLH  &kp BSLH                     &none      &kp PIPE        &hmr RALT TILDE  &hmr RCTRL AMPS  &hmr RSHIFT DLLR
                                                       &kp LGUI  &trans     &trans    &trans  &mo 3      &kp RGUI
             >;
+
+            display-name = "Symbols";
         };
 
         adj {
@@ -90,6 +96,8 @@
   &kp LSHIFT   &hmr LCTRL F9  &hmr LALT F10  &kp F11   &kp F12                    &out OUT_USB  &kp C_PREV    &hmr RALT C_PP  &hmr RCTRL C_NEXT  &kp RSHIFT
                                              &kp LGUI  &trans   &trans    &trans  &trans        &kp RGUI
             >;
+
+            display-name = "Adjust";
         };
     };
 };
