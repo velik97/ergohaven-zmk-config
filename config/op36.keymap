@@ -91,13 +91,11 @@
 
         adj {
             bindings = <
-  &bootloader  &kp F1         &kp F2         &kp F3    &kp F4                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3       &bt BT_CLR
-  &none        &kp F5         &kp F6         &kp F7    &kp F8                     &out OUT_BLE  &kp C_VOL_DN  &kp C_MUTE      &kp C_VOLUME_UP    &studio_unlock
-  &kp LSHIFT   &hmr LCTRL F9  &hmr LALT F10  &kp F11   &kp F12                    &out OUT_USB  &kp C_PREV    &hmr RALT C_PP  &hmr RCTRL C_NEXT  &kp RSHIFT
-                                             &kp LGUI  &trans   &trans    &trans  &trans        &kp RGUI
+  &bootloader  &kp F1         &kp F2         &kp F3    &kp F4                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3       &none
+  &none        &kp F5         &kp F6         &kp F7    &kp F8                         &out OUT_BLE  &kp C_VOL_DN  &kp C_MUTE      &kp C_VOLUME_UP    &studio_unlock
+  &kp LSHIFT   &hmr LCTRL F9  &hmr LALT F10  &kp F11   &kp F12                        &out OUT_USB  &kp C_PREV    &hmr RALT C_PP  &hmr RCTRL C_NEXT  &kp RSHIFT
+                                             &kp LGUI  &trans   &trans    &bt BT_CLR  &trans        &kp RGUI
             >;
-
-            display-name = "Adjust";
         };
     };
 };
