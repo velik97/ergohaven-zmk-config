@@ -77,8 +77,8 @@
         sym {
             bindings = <
   &kp ESC           &kp LT           &kp EQUAL        &kp GT    &kp GRAVE                    &kp CARET  &kp LBKT        &kp UNDER        &kp RBKT         &kp BACKSPACE
-  &kp BSLH          &kp LPAR         &kp MINUS        &kp RPAR  &kp PLUS                     &kp PRCNT  &hmr RGUI LBRC  &hmr RALT SEMI   &hmr RCTRL RBRC  &kp ENTER
-  &hmr LSHIFT HASH  &hmr LCTRL STAR  &hmr LALT COLON  &kp FSLH  &none                        &none      &kp PIPE        &hmr RALT TILDE  &hmr RCTRL AMPS  &hmr RSHIFT DLLR
+  &kp TAB           &kp LPAR         &kp MINUS        &kp RPAR  &kp PLUS                     &kp PRCNT  &hmr RGUI LBRC  &hmr RALT SEMI   &hmr RCTRL RBRC  &kp ENTER
+  &hmr LSHIFT HASH  &hmr LCTRL STAR  &hmr LALT COLON  &kp FSLH  &kp BSLH                     &none      &kp PIPE        &hmr RALT TILDE  &hmr RCTRL AMPS  &hmr RSHIFT DLLR
                                                       &kp LGUI  &trans     &trans    &trans  &mo 3      &kp RGUI
             >;
         };
